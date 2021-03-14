@@ -30,10 +30,10 @@ const axios = require('axios');
 export default {
   data() {
     return {
-        title:'Axios',
-        message:'axios sample.',
-        json_data: {},
-        value: '',
+      title:'Axios',
+      message:'axios sample.',
+      json_data: {},
+      value: '',
     };
   },
   methods: {
