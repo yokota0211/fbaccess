@@ -4,7 +4,7 @@
     <p>{{ message }}</p>
     <div>
       <input type="number" v-model="range.startAt" />
-      <span class="">〜</span>
+      <span>〜</span>
       <input type="number" v-model="range.endAt" />
     </div>
     {{ value }}
