@@ -44,8 +44,7 @@ export default {
           orderBy: `"age"`,
           startAt: this.range.startAt,
           endAt: this.range.endAt,
-        }
-      })
+        }})
         .then(res => {
           this.message = `get: ${this.range.startAt} < age < ${this.range.endAt}`;
           this.json_data = res.data;
